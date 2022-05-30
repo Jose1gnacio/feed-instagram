@@ -1,0 +1,51 @@
+body {background-color: #EAEAEA;}
+
+header {
+    background-color: white;}
+
+h1 {font-size: 44px; /*tamaño letra*/
+    text-align: center;
+    margin-top: 0;
+}
+
+.container { 
+    width: 600px;
+    margin: 0 auto; /*codigo para centrar todo*/
+}
+
+
+.post {
+    
+    background-color: white;
+    margin: 44px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 7px rgba(50, 50, 50, 0.1);
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post h2,
+.post span {
+    padding: 10px 10px;
+    margin: 0;
+}
+
+span { 
+    color: rgb(210, 210,210);
+}
+
+img {
+    width: 100%;
+}
+
+.parrafo { 
+    padding: 4px;
+    justify-content: center;
+    margin: 1px;
+    text-align: center;
+
+ }
